@@ -15,7 +15,7 @@ botoes.forEach(button => {
                 current = current
                     .replace(/x/g, "*")
                     .replace(/-/g, "-")
-                    .replace(/%/g, "/100");
+                    .replace(/%/g, "/100*");
             
                 resultado.value = eval(current).toString();
                 current = resultado.value;
